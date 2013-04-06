@@ -1,0 +1,13 @@
+{
+  "name": "pws",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "ace": "~0.2.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
