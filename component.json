@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
-    "ace": "~0.2.0"
+    "ace-builds": "~1.0.0",
+    "requirejs": "~2.1.5"
   },
   "ignore": [
     "**/.*",
