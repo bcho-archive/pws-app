@@ -97,6 +97,12 @@ html {
       width: 100 - $desc_width;
 
       background-color: #232c31;
+
+      #editor {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
     }
   }
 }
