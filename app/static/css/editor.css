@@ -1,0 +1,54 @@
+html {
+  overflow-y: hidden; }
+
+.container {
+  height: 100%; }
+  .container .wrapper {
+    margin: 0;
+    /* FIXME full height */
+    width: 100%; }
+    .container .wrapper #description, .container .wrapper #main-board {
+      box-sizing: border-box;
+      height: 1000px; }
+    .container .wrapper #description {
+      float: left;
+      width: 30%;
+      padding: 0;
+      background-color: #fff; }
+      .container .wrapper #description header {
+        padding: 2px 0 6px 0;
+        background-color: #efefef;
+        border-bottom: 1px solid #c7c7c7;
+        box-shadow: 1px 0 2px rgba(237, 237, 237, 0.42); }
+        .container .wrapper #description header h1 {
+          margin: 5px 0;
+          font-size: 22px;
+          line-height: 44px;
+          font-weight: 400;
+          text-align: center;
+          color: #222; }
+      .container .wrapper #description article {
+        padding: 0 15px; }
+        .container .wrapper #description article p {
+          font-size: 15px;
+          line-height: 22.5px; }
+    .container .wrapper #main-board {
+      float: left;
+      width: 70%;
+      background-color: #232c31; }
+      .container .wrapper #main-board #editor {
+        width: 70%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 16px; }
+
+.clearfix {
+  content: "";
+  display: table; }
+  .clearfix:after {
+    clear: both; }
